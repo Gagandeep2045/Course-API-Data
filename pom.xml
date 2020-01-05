@@ -33,13 +33,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<!--  
+ 
 		<dependency>
 			<groupId>org.apache.derby</groupId>
-			<artifactId>derby</artifactId>--><!-- apache derby is embedded database.. nt used in prod.. used for demo test purpose -->
-		<!--  	<scope>runtime</scope>
+			<artifactId>derby</artifactId><!-- apache derby is embedded database.. nt used in prod.. used for demo test purpose -->
+	 	<scope>runtime</scope>
 		</dependency>
-		-->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -58,13 +58,13 @@
 			
 		</dependency>
 		
-
+<!--  
 <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.1.1</version>
         </dependency>
-
+-->
 	</dependencies>
 
 	<build>
